@@ -3,7 +3,7 @@
 firstNumber = 10
 
 if firstNumber > 5:
-    print(str(firstNumber) + " greater than 5")
+    print(str(firstNumber) + " is greater than 5")
 
 
 # if-else syntax
@@ -19,7 +19,7 @@ else:
 thirdNumber = 6
 
 if thirdNumber > 10:
-    print(str(thirdNumber) + "is greater than 10")
+    print(str(thirdNumber) + " is greater than 10")
 elif thirdNumber > 5:
     print(str(thirdNumber) + " is greater than 5")
 else:
