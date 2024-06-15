@@ -1,4 +1,4 @@
-# get data form user - input()
+# get data from user - input()
 
 firstname = input("Please enter your first name: ")
 print("Welcome, " + firstname)
