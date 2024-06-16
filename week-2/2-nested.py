@@ -1,3 +1,5 @@
+# Nested statements syntax
+
 temperature = 30
 humidity = 75
 
