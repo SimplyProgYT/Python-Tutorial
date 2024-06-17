@@ -1,14 +1,17 @@
-# Area and Perimeter of a Rectangle 
+# Write a program that takes the bill amount and service quality as input and calculates the tip based on the service quality.
 
-#! Take the length and width from the user
+billAmount = float(input("Enter the bill amount: "))    
+service_quality = input("Enter the service quality(excellent, good, fair, poor) :")
 
-length = float(input("Please enter the length of the rectangle: "))
-width = float(input("Please enter the width of the rectangle: "))
+if service_quality == "excellent":
+  tip_percentage = 0.20
+elif service_quality == "good":
+  tip_percentage = 0.15
+elif service_quality == "fair":
+    tip_percentage = 0.10
+else:
+  tip_percentage = 0.5
+  
+tip_amount = billAmount * tip_percentage
 
-#! Calculate the area and perimeter
-
-area = length * width
-perimeter = 2 * (length + width)
-
-print("Area: ", area)
-print("Perimeter: ", perimeter)
+print("The tip amount is", str(tip_amount))
