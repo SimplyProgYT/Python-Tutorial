@@ -12,10 +12,14 @@ fruits.append("strawberry")
 print(fruits) # ['apple', 'banana', 'strawberry']
 
 
-#? insert() method  -> Inserting an item at a specific position
+#? insert() method -> Inserting an item at a specific position
 
 fruits.insert(1, "cherry")
 print(fruits) # ['apple', 'cherry', 'banana', 'strawberry']
 fruits.insert(3, "watermelon")
 print(fruits) # ['apple', 'cherry', 'banana', 'watermelon', 'strawberry']
 
+
+#? extend() method -> Adding multiple items to the end of the list
+fruits.extend(["orange", "kiwi"])
+print(fruits) # ['apple', 'cherry', 'banana', 'watermelon', 'strawberry', 'orange', 'kiwi']
