@@ -9,3 +9,11 @@ fruits = ["apple", "banana", "strawberry"]
 
 fruits.remove("banana")
 print(fruits) # ['apple', 'strawberry']
+
+#? pop() method -> Removing an item at a specific position
+fruits.pop(0)
+print(fruits) # ['strawberry']
+
+#? clear() method -> Clearing the entire list
+fruits.clear()
+print(fruits) # []
