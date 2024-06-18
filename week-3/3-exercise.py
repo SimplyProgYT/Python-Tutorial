@@ -2,7 +2,7 @@
 
 num1 = int(input("Please enter an integer: "))
 num2 = int(input("Please enter an integer: "))
-operation = str(input("Please choose an operaiton (+, -, *, /)"))
+operation = str(input("Please choose an operation (+, -, *, /)"))
 
 if operation == "+":
     print(num1 + num2)
