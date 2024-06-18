@@ -9,3 +9,11 @@ fruits = ["apple", "banana"]
 #? append() method
 fruits.append("strawberry")
 print(fruits) # ['apple', 'banana', 'strawberry']
+
+
+#? insert() method  
+
+fruits.insert(1, "cherry")
+print(fruits) # ['apple', 'cherry', 'banana', 'strawberry']
+fruits.insert(3, "watermelon")
+print(fruits) # ['apple', 'cherry', 'banana', 'watermelon', 'strawberry']
