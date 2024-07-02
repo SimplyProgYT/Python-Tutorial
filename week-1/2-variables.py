@@ -1,7 +1,7 @@
 # tpye() function
 
-firstName = "John"
-print(type(firstName)) # <class 'str'>
+first_name = "John"
+print(type(first_name)) # <class 'str'>
 
 age = 19
 print(type(age)) # <class 'int'>
