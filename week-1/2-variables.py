@@ -1,4 +1,4 @@
-# tpye() function
+# type() function
 
 first_name = "John"
 print(type(first_name)) # <class 'str'>
